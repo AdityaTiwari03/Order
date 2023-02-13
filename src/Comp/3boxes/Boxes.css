@@ -1,0 +1,76 @@
+.div {
+  background-color: white;
+  width: 410px;
+  height: 500px;
+  border: 7px solid green;
+  padding: 5px;
+  margin: 1px;
+  float: right;
+  overflow: scroll;
+}
+.div1 {
+  background-color: white;
+  width: 530px;
+  height: 500px;
+  border: 7px solid green;
+  padding: 5px;
+  margin: 2px;
+  float: right;
+  overflow: scroll;
+  position: relative;
+}
+.sheadings {
+  text-align: left;
+  font-size: 35px;
+}
+.iconlike {
+  float: right;
+  height: 85px;
+  width: 70px;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.iconlike:hover {
+  color: red;
+}
+.iconcom {
+  float: right;
+  height: 85px;
+  width: 70px;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.iconcom:hover {
+  color: yellow;
+}
+.block {
+  width: 350px;
+  height: 300px;
+  border: 5px solid green;
+  padding: 5px;
+  margin: 1px;
+}
+button {
+  height: 43px;
+  width: 70px;
+  font-size: 20px;
+}
+.food {
+  font-size: 30px;
+  height: 45px;
+  width: 365px;
+  margin: 0px;
+  padding: 0px;
+}
+#heading {
+  font-size: 35px;
+}
+.des {
+  font-size: 25px;
+}

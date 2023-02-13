@@ -1,0 +1,96 @@
+.icon {
+  float: left;
+  height: 85px;
+  width: 150px;
+  font-size: 70px;
+  color: yellow;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.Submit {
+  float: right;
+  width: 250px;
+  height: 70px;
+  padding: 3px;
+  background-color: green;
+  color: red;
+  font-size: 50px;
+}
+.Submit:hover {
+  background-color: green;
+  color: red;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.icons {
+  float: right;
+  height: 85px;
+  width: 150px;
+  font-size: 70px;
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.icons:hover {
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #145677;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.hello {
+  font-size: 20px;
+  opacity: 0.7;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
