@@ -1,46 +1,81 @@
 .horiblocks {
-    background-color: white;
-    width: 47%;
-    height: 180px;
-    border: 5px solid green;
-    padding: 5px;
-    margin: 1px;
-    float:left;
-    overflow: hidden;
-  }
-  .horiblock {
-    background-color: white;
-    width: 1405px;
-    height: 325px;
-    border: 5px solid green;
-    padding: 5px;
-    margin: 1px;
-    float: right;
-    overflow: scroll;
-    white-space: nowrap;
-  }
-  .iconneeche{
-    float:right;
-    height: 85px;
-    width: 100px;
-    font-size: 60px;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    overflow: hidden;
-      }
-  .iconneeche:hover{
-    color: green; 
-  }
-#name1, #name2, #name3, #name4 {
-    float: center; 
-    font-size: 40px;
-}   
+  background-color: black;
+  width: 47%;
+  height: 180px;
+  border: 5px solid gray;
+  padding: 5px;
+  float: left;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: yellow;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: yellow;
+}
+
+.oi {
+  font-size: 50px;
+}
+
+.horiblock {
+  margin-top: 10%;
+  background-color: black;
+  width: 98vw;
+  height: 325px;
+  border: 5px solid gray;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 10px;
+  float: right;
+  overflow: auto;
+  color: white;
+}
+
+.iconneeche {
+  float: right;
+  height: 85px;
+  width: 100px;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.iconneeche:hover {
+  color: yellow;
+}
+
+#name1,
+#name2,
+#name3,
+#name4 {
+  float: center;
+  font-size: 40px;
+}
+
 .change {
-    width: 250px;
-    height: 30px;
-    padding: 6px;
-    margin-top: 6px;
-    border: none;
-    font-size: 30px;
-    }
+  width: 250px;
+  height: 30px;
+  padding: 6px;
+  margin-top: 6px;
+  border: none;
+  font-size: 30px;
+  color: black;
+  background-color: gray;
+
+}

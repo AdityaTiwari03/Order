@@ -1,76 +1,97 @@
 .div {
-  background-color: white;
-  width: 410px;
-  height: 500px;
-  border: 7px solid green;
-  padding: 5px;
-  margin: 1px;
+  background-color: black;
+  width: 29vw;
+  height: 88vh;
+  border: 0.4vw solid gray;
+  padding: 0;
+  margin: 0;
   float: right;
-  overflow: scroll;
+  overflow: inherit;
+  color: white
 }
+
 .div1 {
-  background-color: white;
-  width: 530px;
-  height: 500px;
-  border: 7px solid green;
-  padding: 5px;
-  margin: 2px;
+  background-color: black;
+  width: 33vw;
+  height: 88vh;
+  border: 0.4vw solid gray;
   float: right;
-  overflow: scroll;
+  overflow: auto;
+  color: white;
   position: relative;
 }
+
 .sheadings {
   text-align: left;
-  font-size: 35px;
+  font-size: 45px;
 }
+
+
 .iconlike {
-  float: right;
+  float: left;
   height: 85px;
   width: 70px;
   font-size: 60px;
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   overflow: hidden;
 }
+
 .iconlike:hover {
   color: red;
 }
+
 .iconcom {
-  float: right;
+  float: left;
   height: 85px;
   width: 70px;
   font-size: 60px;
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   overflow: hidden;
 }
+
 .iconcom:hover {
   color: yellow;
 }
+
 .block {
-  width: 350px;
-  height: 300px;
-  border: 5px solid green;
-  padding: 5px;
-  margin: 1px;
+  width: 90%;
+  height: 600px;
+  border: 5px solid gray;
+  padding: 0px;
+  margin-left: 10px;
 }
+
 button {
-  height: 43px;
-  width: 70px;
-  font-size: 20px;
+  height: 53px;
+  width: 90px;
+  font-size: 27px;
+  margin-left: 10px;
+  color: gray;
+  background-color: black;
+  border-color: gray;
 }
+
 .food {
   font-size: 30px;
   height: 45px;
   width: 365px;
-  margin: 0px;
   padding: 0px;
+  margin-left: 10px;
+  color: black;
+  background-color: gray;
 }
+
 #heading {
-  font-size: 35px;
+  font-size: 45px;
+  color: white;
 }
+
 .des {
-  font-size: 25px;
+  color: white;
+  font-size: 35px;
+  margin-left: 10px;
 }

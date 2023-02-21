@@ -24,26 +24,7 @@ function sidebar(props) {
             <iconify-icon icon="mdi:about-circle-outline" />
           </a>
         </li>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <li id="hi">
-          <a href="made by.html">
-            <iconify-icon icon="mdi:bell-notification-outline" />
-          </a>
-        </li>
-        <li id="hi">
-          <a href="made by.html">
-            <iconify-icon icon="material-symbols:settings" />
-          </a>
-        </li>
-      </ul>
+       </ul>
     </div>
   );
 }

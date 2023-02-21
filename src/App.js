@@ -11,13 +11,12 @@ import Sidebar from "./Comp/sidebar/Sidebar";
 function App() {
   return (
     <div className="App">
-      <Toptab /> <br />
-      <br /> <br /> <br />
-      <Box1 />
+      <Toptab /> <br /><br /><br /><br /><br />
+      <Box1 />  
       <Box2 />
       <Box3 />
+      <Sidebar /> 
       <Horiblock />
-      <Sidebar />
       <Mapblock />
       <Scroll />
     </div>
