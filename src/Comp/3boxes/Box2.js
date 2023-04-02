@@ -2,7 +2,7 @@ import React from 'react';
 import './Boxes.css';
 
 function Box2() {
-  const arr = []
+  var arr = []
   function Add() {
     if (document.getElementById('food').value) {
       arr.push(document.getElementById('food').value)
@@ -48,9 +48,8 @@ function Box2() {
     let s = addZero(d.getSeconds());
     let time = h + ":" + m + ":" + s;
     document.getElementById("time").innerHTML = time;
-
     arr = [];
-    document.getElementsByClassName("dem").innerHTML = "";
+    document.getElementById("dem").innerHTML = "";
 
   }
 
